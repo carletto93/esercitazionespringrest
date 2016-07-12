@@ -84,6 +84,6 @@ public class ListaContattiController {
 		return mostraContatti();
 	}
 
-//commento per generare un conflitto
+//commento generato dal repo locale
 
 }
