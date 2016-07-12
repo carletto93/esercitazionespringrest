@@ -36,9 +36,4 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
 		return dataSource;
 	}
 
-	public void logging() {
-		URL loggingPath = getClass().getResource("/log4j.xml");
-		DOMConfigurator.configure(loggingPath);
-	}
-
 }
